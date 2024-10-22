@@ -1,11 +1,14 @@
 ## Final project Brillio Academy
 
-#### This repository contains the entire technical project after the end of the academy, where I studied SQL, Tableau,  Power BI, Alteryx from 2nd September until 27 September.
+This repository contains the entire technical project
+ after the end of the academy, 
+ where I studied SQL, Tableau,  Power BI, Alteryx 
+ from 2nd September until 27 September 2025.
 
 ### This project contains 3 parts:
-**1. A SQL script in which I did CRUD operations**
+*1. A SQL script in which I did CRUD operations**
    
-**2. An Alteryx file where I performed the following ETL operations:**
+*2. An Alteryx file where I performed the following ETL operations:*
 
     •	Use the tool that automatically attributes the best data type to each field.
     •	Remove trailing spaces from the fields where there are issues. 
@@ -26,7 +29,8 @@
     •	Rename productCode1 as productCodeShort and productCode2 as productCodeNumber.
     •   Export the file in CSV/xlsx format
     
-**3. Analyse the data from the exported file and create a dashboard containing at least the following:** 
+*3. A Power BI dashboard based of the data from Alteryx at step 2, 
+which should have contained at least the following elements:* 
 
     •	Show the employees and the number of customers they each have, in descending order.
     •	Map the countries in order to highlight the one with the highest ordered quantity of products.
@@ -35,3 +39,9 @@
     •	Show the relationship between spend and profit, to see if there are any outliers.
     •	Show bottom X (where X between 3 and 10, and it can be dynamically selected by the user) products according to stock, for the latest year.
     •	Avg quarterly shipping time, split per year.
+
+
+![alt text](image-1.png)
+
+
+![alt text](image-2.png)
