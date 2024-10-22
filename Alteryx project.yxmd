@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ProjectData_SQL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="employeeNumber" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="lastName" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="firstName" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="officeCode" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="jobTitle" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="officeCode2" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="city" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="addressLine1" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="country" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="customerNumber" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="customerName" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="contactLastName" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="contactFirstName" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="salesRepEmployeeNumber" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="orderNumber" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="orderDate" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="shippedDate" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="customerNumber2" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="orderNumber2" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="productCode" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="quantityOrdered" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="priceEach" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="productCode2" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="productName" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="productLine" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="buyPrice" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="quantityInStock" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="roundedpriceEach" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="roundedbuyPrice" size="254" source="File: D:\Projects and practice\Brillio Academy\Homework\Final project\ProjectData_SQL.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[FIRSTNAME]+' '+[LASTNAME]" field="employeeName" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="[CONTACTFIRSTNAME]+' '+[CONTACTLASTNAME]" field="contactName" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="REGEX_Replace([ADDRESSLINE1],'Street',&quot;&quot;)" field="addressLine1" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="Right([ORDERNUMBER], 3)" field="orderNumber" size="16384" type="String" enabled="true" />
+            <FormulaField expression="IF Contains([productLine], &quot;Cars&quot;) THEN Left([PRODUCTNAME], 4) ELSE &quot;N/A&quot; ENDIF" field="manufacturingYear" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeFormat([SHIPPEDDATE],'%B %d %Y')" field="strShippedDate" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeDiff([SHIPPEDDATE],[ORDERDATE],'days')" field="shippingTime" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="[ROUNDEDPRICEEACH]-[ROUNDEDBUYPRICE]" field="profitperUnit" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="[ROUNDEDPRICEEACH]*[QUANTITYORDERED]" field="total_spend" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="[ROUNDEDBUYPRICE]*[QUANTITYORDERED]" field="total_cost" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="[total_spend]-[total_cost]" field="total_profit" size="8" type="Int64" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>employeeName = [FIRSTNAME]+' '+[LASTNAME]
+contactName = [CONTACTFIRSTNAME]+' '+[...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="OFFICECODE2" selected="False" />
+            <SelectField field="ORDERNUMBER" selected="True" type="String" size="16384" />
+            <SelectField field="CUSTOMERNUMBER2" selected="False" />
+            <SelectField field="ORDERNUMBER2" selected="False" />
+            <SelectField field="QUANTITYORDERED" selected="True" type="Int64" size="8" />
+            <SelectField field="priceEach" selected="False" />
+            <SelectField field="PRODUCTCODE2" selected="False" />
+            <SelectField field="buyPrice" selected="False" />
+            <SelectField field="QUANTITYINSTOCK" selected="True" type="Int64" size="8" />
+            <SelectField field="ROUNDEDPRICEEACH" selected="True" type="Float" size="4" />
+            <SelectField field="ROUNDEDBUYPRICE" selected="True" type="Float" size="4" />
+            <SelectField field="FileName" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="222" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"employeeNumber","lastName","firstName","officeCode","jobTitle","city","addressLine1","country","customerNumber","customerName","contactLastName","contactFirstName","salesRepEmployeeNumber","orderNumber","orderDate","shippedDate","productCode","quantityOrdered","productName","productLine","quantityInStock","roundedpriceEach","roundedbuyPrice"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="486" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>productCode</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-09-30 12:33:11</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>S18_3136</Operand>
+              <StartDate>2024-09-30 12:33:11</StartDate>
+              <EndDate>2024-09-30 12:33:11</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[productCode] != "S18_3136"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="582" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>productCode</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>PRODUCTCODE</RootName>
+          <Delimeters value="_" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EMPLOYEENUMBER" selected="True" />
+            <SelectField field="LASTNAME" selected="False" />
+            <SelectField field="FIRSTNAME" selected="False" />
+            <SelectField field="OFFICECODE" selected="True" />
+            <SelectField field="JOBTITLE" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="ADDRESSLINE1" selected="True" />
+            <SelectField field="COUNTRY" selected="True" />
+            <SelectField field="CUSTOMERNUMBER" selected="True" />
+            <SelectField field="CUSTOMERNAME" selected="True" />
+            <SelectField field="CONTACTLASTNAME" selected="False" />
+            <SelectField field="CONTACTFIRSTNAME" selected="False" />
+            <SelectField field="SALESREPEMPLOYEENUMBER" selected="False" />
+            <SelectField field="ORDERNUMBER" selected="True" type="Int64" size="8" />
+            <SelectField field="ORDERDATE" selected="True" />
+            <SelectField field="SHIPPEDDATE" selected="True" />
+            <SelectField field="QUANTITYORDERED" selected="True" />
+            <SelectField field="PRODUCTCODE" selected="False" />
+            <SelectField field="PRODUCTNAME" selected="True" />
+            <SelectField field="PRODUCTLINE" selected="True" />
+            <SelectField field="QUANTITYINSTOCK" selected="True" />
+            <SelectField field="ROUNDEDPRICEEACH" selected="True" />
+            <SelectField field="ROUNDEDBUYPRICE" selected="True" />
+            <SelectField field="employeeName" selected="True" />
+            <SelectField field="contactName" selected="True" />
+            <SelectField field="manufacturingYear" selected="True" />
+            <SelectField field="strShippedDate" selected="True" />
+            <SelectField field="shippingTime" selected="True" />
+            <SelectField field="PRODUCTCODE1" selected="True" rename="productCodeShort" />
+            <SelectField field="PRODUCTCODE2" selected="True" rename="productCodeNumber" />
+            <SelectField field="profitperUnit" selected="True" />
+            <SelectField field="total_spend" selected="True" />
+            <SelectField field="total_cost" selected="True" />
+            <SelectField field="total_profit" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings>
+        <Position x="390" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"employeeNumber","lastName","firstName","officeCode","jobTitle","city","addressLine1","country","customerNumber","customerName","contactLastName","contactFirstName","salesRepEmployeeNumber","orderNumber","orderDate","shippedDate","productCode","quantityOrdered","productName","productLine","quantityInStock","roundedpriceEach","roundedbuyPrice","employeeName","contactName","manufacturingYear","strShippedDate","shippingTime","profitperUnit","total_spend","total_cost","total_profit"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">D:\Projects and practice\Brillio Academy\Homework\Final project\Final_dataset.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Final_dataset.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="19" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output26" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output26" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx project</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3eca57d8-f7c6-428d-ab55-9679286595f1" />
+      <Telemetry>
+        <PreviousWorkflowId value="5e45f80b-fa80-484c-9ab3-3ba480b3b61b" />
+        <OriginWorkflowId value="5e45f80b-fa80-484c-9ab3-3ba480b3b61b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
